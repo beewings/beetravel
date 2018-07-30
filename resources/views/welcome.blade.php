@@ -39,9 +39,9 @@
           <!-- left menu items -->
           <div class="top-nav left-menu">
              <ul class="right top-ul chevron">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about-us.html">About Us</a></li>
-                <li><a href="services.html">Our Services</a></li>
+                <li><a href="index.html" style="color: black;">Home</a></li>
+                <li><a href="about-us.html" style="color: black;">Guide</a></li>
+                <li><a href="services.html" style="color: black;">Tour</a></li>
              </ul>
           </div>
           
@@ -58,58 +58,33 @@
           <!-- right menu items -->
           <div class="top-nav right-menu">
              <ul class="top-ul chevron">
-                <li>
-                  <a>Products</a>
-                  <ul>
-                    <li><a>Product 1</a></li>
-                    <li><a>Product 2</a></li>
-                  </ul>
+               
+                <li><a href="gallery.html" style="color: black;">About Us</a></li>
+                <li><a href="contact.html" style="color: black;">Contact</a></li>
+                 <li>
+                  <a style="color: black;">News</a>
+                  
                 </li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact</a></li>
              </ul> 
           </div>
         </div>
       </nav>
+
     </header>
     
     <!-- MAIN -->
     <main role="main">    
       <!-- Header -->
-      <header class="section-top-padding background-image text-center" style="background-image:url(img/img-05.jpg)">
-        <h1 class="text-extra-thin text-white text-s-size-30 text-m-size-40 text-size-50 text-line-height-1 margin-bottom-40 margin-top-130">
-          Save your Time and Keep Calm
-        </h1>
-        <p class="text-white">Duis autem vel eum iriure dolor in hendrerit in vulputate velit<br> esse molestie consequat, vel illum dolore eu feugiat nulla facilisis</p>
-        <i class="slow icon-sli-arrow-down text-white margin-top-20 text-size-16"></i>
-        <!-- Image -->
-        <img class="margin-top-20 center" src="img/app.png" alt="">
+      <header class="section-top-padding background-image text-center" style="background-image:url(img/bg3.JPG); height: 750px;">
         
-        <!-- dark full width arrow object -->
-        <img class="arrow-object" src="img/arrow-object-dark.svg" alt="">
-      </header>
-      
-      <!-- Section 1 -->
-      <section class="section-small-padding background-dark text-center">      
-        <div class="line">
-          <div class="m-10 l-6 xl-4 center">
-            <div class="margin">
-              <a class="s-12 m-6 margin-s-bottom" href="/">
-                <img class="full-img right" src="img/google-play.svg" alt="">
-              </a>
-              <a class="s-12 m-6" href="/">
-                <img class="full-img" src="img/app-store.svg" alt="">
-              </a>
-            </div>
-          </div>                                                                                               
-        </div>       
-      </section>
+        </header>
+        
       
       <!-- Section 2 -->
       <section class="section-top-padding background-white">
         <div class="line text-center">
           <i class="icon-sli-heart text-primary text-size-40"></i>
-          <h2 class="text-dark text-size-50 text-m-size-40">Template <b>Features</b></h2>
+          <h2 class="text-dark text-size-50 text-m-size-40">BeeTravel <b>Tour Ha Noi </b></h2>
           <hr class="break background-primary break-small break-center margin-bottom-50">
         </div>
         <div class="line">
@@ -119,9 +94,9 @@
                 <i class="icon-sli-equalizer text-primary text-size-40 text-line-height-1"></i>
               </div>
               <div class="margin-left-60">
-                <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">Unlimited Color Variants</h3>
+                <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">Ha Noi</h3>
                 <p>Hendrerit in vulputate duis autem vel eum iriure dolor in velit esse molestie consequat, vel illum dolore nulla facilisis</p>
-                <a class="text-more-info text-primary" href="/">Read more</a>                
+                              
               </div>
             </div>
             <div class="s-12 m-6 l-4 margin-bottom-60">
@@ -129,7 +104,7 @@
                 <i class="icon-sli-layers text-primary text-size-40 text-line-height-1"></i>
               </div>
               <div class="margin-left-60">
-                <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">Many Reusable Elements</h3>
+                <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">Nghe An</h3>
                 <p>Hendrerit in vulputate duis autem vel eum iriure dolor in velit esse molestie consequat, vel illum dolore nulla facilisis</p>
                 <a class="text-more-info text-primary" href="/">Read more</a>                
               </div>
@@ -139,7 +114,7 @@
                 <i class="icon-sli-share text-primary text-size-40 text-line-height-1"></i>
               </div>
               <div class="margin-left-60">
-                <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">Clean Modern Code</h3>
+                <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">Quang Binh</h3>
                 <p>Hendrerit in vulputate duis autem vel eum iriure dolor in velit esse molestie consequat, vel illum dolore nulla facilisis</p>
                 <a class="text-more-info text-primary" href="/">Read more</a>                 
               </div>
@@ -149,7 +124,7 @@
                 <i class="icon-sli-paper-plane text-primary text-size-40 text-line-height-1"></i>
               </div>
               <div class="margin-left-60">
-                <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">Parallax Background</h3>
+                <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">Hue</h3>
                 <p>Hendrerit in vulputate duis autem vel eum iriure dolor in velit esse molestie consequat, vel illum dolore nulla facilisis</p>
                 <a class="text-more-info text-primary" href="/">Read more</a>                 
               </div>
@@ -159,7 +134,7 @@
                 <i class="icon-sli-diamond text-primary text-size-40 text-line-height-1"></i>
               </div>
               <div class="margin-left-60">
-                <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">Responsive Layoute</h3>
+                <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">Da Nang</h3>
                 <p>Hendrerit in vulputate duis autem vel eum iriure dolor in velit esse molestie consequat, vel illum dolore nulla facilisis</p>
                 <a class="text-more-info text-primary" href="/">Read more</a>                 
               </div>
@@ -169,7 +144,7 @@
                 <i class="icon-sli-rocket text-primary text-size-40 text-line-height-1"></i>
               </div>
               <div class="margin-left-60">
-                <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">And many more...</h3>
+                <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20"> Da Lat</h3>
                 <p>Hendrerit in vulputate duis autem vel eum iriure dolor in velit esse molestie consequat, vel illum dolore nulla facilisis</p>
                 <a class="text-more-info text-primary" href="/">Read more</a>                 
               </div>
@@ -181,69 +156,78 @@
       <!-- Section 3 -->
       <section class="section background-white">      
         <div class="line text-center">
-          <p class="text-primary text-size-20">Lorem ipsum dolor sit amet</p>
-          <h2 class="text-dark text-size-50 text-m-size-40">Responsive <b>Components</b></h2>
-          <i class="icon-chevron_down text-primary margin-bottom-50 text-size-20"></i> 
+          <h2 class="text-dark text-size-50 text-m-size-40">BeeTravel <b>Tour Guide</b></h2>
+          <br>
+          <br>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip.</p>
+          <hr class="break background-primary break-small break-center margin-bottom-50">
+          
         </div> 
         
-        <div class="l-12 xl-7 center"> 
-          <div class="margin">
-            <!-- Left Column -->
-            <div class="s-12 m-12 l-4 text-right"> 
-              <div class="margin-right-50">
-                <i class="icon-sli-paper-plane text-primary text-size-40 margin-bottom-20"></i>
-                <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">Responsive Carousel</h3>
-                <p>Hendrerit in vulputate duis autem vel eum iriure dolor in velit esse molestie consequat, illum nulla facilisis</p>
+        <div class="line">
+          <div class="margin2x">
+            <div class="s-12 m-6 l-4 margin-bottom-60">
+              <div class="float-left">
+                <i class="icon-sli-equalizer text-primary text-size-40 text-line-height-1"></i>
               </div>
-              
-              <div class="line"> 
-                <hr class="break background-primary break-small right margin-top-bottom-40">
+              <div class="margin-left-60">
+                <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">Ha Noi</h3>
+                <p>Hendrerit in vulputate duis autem vel eum iriure dolor in velit esse molestie consequat, vel illum dolore nulla facilisis</p>
+                              
               </div>
-              
-              <div class="margin-right-50">
-                <i class="icon-sli-bulb text-primary text-size-40 margin-bottom-20"></i>
-                <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">Tabs with URL Hash</h3>
-                <p>Hendrerit in vulputate duis autem vel eum iriure dolor in velit esse molestie consequat, dolore nulla facilisis</p>
-              </div> 
             </div>
-
-            <!-- Middle Column (carousel)-->
-            <div class="s-12 m-12 l-4">                                                                                        
-              <div class="carousel-default owl-carousel carousel-hide-arrows margin-m-top-bottom-50">                                                                                              
-                <div class="item">                                                                                                                                                                                                     
-                  <img src="img/responsive-01.png"/>                                                                                                                                                              
-                </div>              
-                <div class="item">                                                                                                                                                                                                                 
-                  <img src="img/responsive-02.png"/>                                                                                                                                                                                                                                                                                                                                                                                     
-                </div>              
-                <div class="item">                                                                                                                                                                                                     
-                  <img src="img/responsive-03.png"/>                                                                                                                                                            
-                </div>              
-                <div class="item">
-                  <img src="img/responsive-04.png"/>                                                                                                                                                            
-                </div>                                                                                                                                      
+            <div class="s-12 m-6 l-4 margin-bottom-60">
+              <div class="float-left">
+                <i class="icon-sli-layers text-primary text-size-40 text-line-height-1"></i>
               </div>
-            </div> 
-            
-            <!-- Right Column -->
-            <div class="s-12 m-12 l-4"> 
-               <div class="margin-left-50">
-                <i class="icon-sli-heart text-primary text-size-40 margin-bottom-20"></i>
-                <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">Unlimited Color Variants</h3>
-                <p>Hendrerit in vulputate duis autem vel eum iriure dolor in molestie consequat, vel illum dolore nulla facilisis</p>
+              <div class="margin-left-60">
+                <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">Nghe An</h3>
+                <p>Hendrerit in vulputate duis autem vel eum iriure dolor in velit esse molestie consequat, vel illum dolore nulla facilisis</p>
+                <a class="text-more-info text-primary" href="/">Read more</a>                
               </div>
-              
-              <div class="line"> 
-                <hr class="break background-primary break-small margin-top-bottom-40">
+            </div>
+            <div class="s-12 m-6 l-4 margin-bottom-60">
+              <div class="float-left">
+                <i class="icon-sli-share text-primary text-size-40 text-line-height-1"></i>
               </div>
-              
-              <div class="margin-left-50">
-                <i class="icon-sli-layers text-primary text-size-40 margin-bottom-20"></i>
-                <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">Responsive Navigation</h3>
-                <p>Hendrerit in vulputate duis autem vel eum iriure dolor in velit esse molestie vel illum dolore nulla facilisis</p>
-              </div> 
-            </div> 
-          </div>                                                                                              
+              <div class="margin-left-60">
+                <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">Quang Binh</h3>
+                <p>Hendrerit in vulputate duis autem vel eum iriure dolor in velit esse molestie consequat, vel illum dolore nulla facilisis</p>
+                <a class="text-more-info text-primary" href="/">Read more</a>                 
+              </div>
+            </div>
+            <div class="s-12 m-6 l-4 margin-m-bottom-60">
+              <div class="float-left">
+                <i class="icon-sli-paper-plane text-primary text-size-40 text-line-height-1"></i>
+              </div>
+              <div class="margin-left-60">
+                <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">Hue</h3>
+                <p>Hendrerit in vulputate duis autem vel eum iriure dolor in velit esse molestie consequat, vel illum dolore nulla facilisis</p>
+                <a class="text-more-info text-primary" href="/">Read more</a>                 
+              </div>
+            </div>
+            <div class="s-12 m-6 l-4 margin-m-bottom-60">
+              <div class="float-left">
+                <i class="icon-sli-diamond text-primary text-size-40 text-line-height-1"></i>
+              </div>
+              <div class="margin-left-60">
+                <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">Da Nang</h3>
+                <p>Hendrerit in vulputate duis autem vel eum iriure dolor in velit esse molestie consequat, vel illum dolore nulla facilisis</p>
+                <a class="text-more-info text-primary" href="/">Read more</a>                 
+              </div>
+            </div>
+            <div class="s-12 m-6 l-4 margin-m-bottom-60">
+              <div class="float-left">
+                <i class="icon-sli-rocket text-primary text-size-40 text-line-height-1"></i>
+              </div>
+              <div class="margin-left-60">
+                <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20"> Da Lat</h3>
+                <p>Hendrerit in vulputate duis autem vel eum iriure dolor in velit esse molestie consequat, vel illum dolore nulla facilisis</p>
+                <a class="text-more-info text-primary" href="/">Read more</a>                 
+              </div>
+            </div>
+          </div>
         </div>       
       </section>
       

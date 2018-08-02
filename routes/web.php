@@ -11,6 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/',[
+	'as'=>'home.home',
+	'uses'=>'HomeController@home'
+]);
+Route::get('/tourhanoi',[
+	'as'=>'tourhanoi.show',
+	'uses'=>'TourController@show'
+]);

@@ -1,46 +1,12 @@
 @extends ('layouts.master')
 @section ('head.title')
-  Home
+  Tour Ha Noi
 @stop
 @section ('body.header')
-  <header role="banner" class="position-absolute">
-    <nav class="background-transparent background-primary-dott full-width sticky">          
-      <div class="top-nav"> 
-        <div class="logo hide-l hide-xl hide-xxl">
-          <a href="index.html" class="logo">
-            <img class="logo-white" src="img/logo2.png" style="width: 120px; height: 60px;" alt="">
-            <img class="logo-dark" src="img/logo2.png" style="width: 100px; height: 50px;" alt="">
-          </a>
-        </div>                  
-        <p class="nav-text"></p>
-        <div class="top-nav left-menu">
-          <ul class="right top-ul chevron">
-            <li><a href="index.html" style="color: black;">Home</a></li>
-            <li><a href="about-us.html" style="color: black;">Tour Ha Noi</a></li>
-            <li><a href="services.html" style="color: black;">Tour Viet Nam</a></li>
-          </ul>
-        </div>
-        <ul class="logo-menu">
-          <a href="index.html" class="logo">
-            <img class="logo-white" src="img/logo2.png" style="width: 120px; height: 60px;" alt="">
-            <img class="logo-dark" src="img/logo2.png" style="width: 100px; height: 50px;" alt="">
-          </a>
-        </ul>
-        <div class="top-nav right-menu">
-          <ul class="top-ul chevron">
-            <li><a href="gallery.html" style="color: black;">About Us</a></li>
-            <li><a href="contact.html" style="color: black;">Contact</a></li>
-            <li><a style="color: black;">News</a></li>
-          </ul> 
-        </div>
-      </div>
-    </nav>
-  </header>
+  @include('partials.navbar')
 @stop
 @section ('body.content')
   <main role="main">
-    <header class="section-top-padding background-image text-center" style="background-image:url(img/bk.JPG); height: 750px;">
-    </header>
     <section class="section background-white" style="padding-top: 70px;">      
       <div class="line text-center">
         <h2 class="text-dark text-size-50 text-m-size-40">BeeTravel <b>Tour Ha Noi</b></h2>
@@ -62,7 +28,7 @@
                 Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip.
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
                 Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip.</p>
-            <a class="text-primary" href="{{ route('tourhanoi.show') }}">Read more</a>
+            <a class="text-primary" href="">Read more</a>
           </div>
         </div>
       </div>

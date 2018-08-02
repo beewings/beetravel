@@ -18,7 +18,13 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,700,900&amp;subset=latin-ext" rel="stylesheet"> 
     <script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script>
     <script type="text/javascript" src="/js/jquery-ui.min.js"></script>   
+    <style type="text/css">
+      @import url('http://weloveiconfonts.com/api/?family=entypo');
+      
+    </style>
+    <link rel="stylesheet" href="/css/app.css">
   </head>
+
 
   <body class="size-1280">
     <!-- PREMIUM FEATURES BUTTON -->
@@ -121,7 +127,7 @@
       </section>
       <section class="section-small-padding background-dark text-center">      
         <div class="line">
-          <h2 class="text-white text-size-50 text-m-size-40 margin-bottom-20">Please Download App choose<b> Tour Guide</b></h2>
+          <h2 class="text-white text-size-50 text-m-size-40 margin-bottom-20">Please Download App to choose<b> Tour Guide</b></h2>
           <div class="m-10 l-6 xl-4 center">
             <div class="margin">
               <a class="s-12 m-6 margin-s-bottom" href="/">
@@ -256,7 +262,7 @@
       <!-- Section 7 -->
       <section class="section-small-padding background-dark text-center">      
         <div class="line">
-          <h2 class="text-white text-size-50 text-m-size-40 margin-bottom-20">Get <b>Free Version</b></h2>
+          <h2 class="text-white text-size-50 text-m-size-40 margin-bottom-20">Please Download App to choose<b> Tour Guide</b></b></h2>
           <div class="m-10 l-6 xl-4 center">
             <div class="margin">
               <a class="s-12 m-6 margin-s-bottom" href="/">
@@ -276,18 +282,21 @@
     <footer>
       <!-- Social -->
       <div class="background-primary padding text-center">
-        <a href="/"><i class="icon-facebook_circle text-size-25 text-dark"></i></a> 
-        <a href="/"><i class="icon-twitter_circle text-size-25 text-dark"></i></a>
-        <a href="/"><i class="icon-google_plus_circle text-size-25 text-dark"></i></a>
-        <a href="/"><i class="icon-instagram_circle text-size-25 text-dark"></i></a> 
-        <a href="/"><i class="icon-linked_in_circle text-size-25 text-dark"></i></a>                                                                       
+        <ul style="display: inline-block;">
+          <li class="icon" id="facebook">&#62220;</li>  
+          <li class="icon" id="twitter">&#62217;</li>  
+          <li class="icon" id="gmail">&#62223;</li>
+          <li class="icon" id="skype">&#62265;</li>
+          <li class="icon" id="instagram">&#62253;</li>
+        </ul>
+                                                                           
       </div>
       <!-- Main Footer -->
       <section class="section background-dark">
         <div class="line"> 
           <div class="margin2x">
             <div class="s-12 m-6 l-3 xl-5">
-               <h4 class="text-white text-strong">Our Mission</h4>
+               <h4 class="text-white text-strong">Bee Travel </h4>
                <p>
                  <b class="text-size-20">Veri fastidii consectetuer</b> ius in, eum alii dicunt omnium eu. Wisi nostrud equidem ut usu. <b class="text-size-20">Deleniti pertinacia eu est</b>, te his soluta quaestio pericula.
                </p>
@@ -306,8 +315,8 @@
             </div>
             <div class="s-12 m-6 l-3 xl-3">
                <h4 class="text-white text-strong margin-m-top-30">Contact Us</h4>
-                <p><i class="icon-sli-screen-smartphone text-primary"></i> 0800 4521 800 50</p>
-                <a class="text-primary-hover" href="mailto:contact@sampledomain.com"><i class="icon-sli-mouse text-primary"></i> contact@sampledomain.com</a><br>
+                <p><i class="icon-sli-screen-smartphone text-primary"></i> (+84) 9316 88883</p>
+                <a class="text-primary-hover" href="mailto:contact@sampledomain.com"><i class="icon-sli-mouse text-primary"></i> Beetravel</a><br>
                 <a class="text-primary-hover" href="mailto:office@sampledomain.com"><i class="icon-sli-mouse text-primary"></i> office@sampledomain.com</a>
             </div>
           </div>  
@@ -321,19 +330,15 @@
       <!-- Bottom Footer -->
       <section class="padding-2x background-dark full-width">
         <div class="line">
-          <div class="s-12 l-6">
-            <p class="text-size-12">Copyright 2018, Beewings Company</p>
-            <p class="text-size-12">All images have been purchased from Bigstock. Do not use the images in your website.</p>
-          </div>
-          <div class="s-12 l-6">
-            <a class="right text-size-12 text-primary-hover" href="http://www.myresponsee.com" title="Responsee - lightweight responsive framework">Design and coding<br> by Responsee Team</a>
+          <div >
+            <p class="text-size-12" style="text-align: center;">Copyright &copy 2018 BEEWINGS VIET NAM | Hotline: 093 168 8883, or Find us on Facebook by Fanpage.</p>
+            
           </div>
         </div>  
       </section>
     </footer>
-            <script type="text/javascript" src="/js/boostrap.min.js"></script>
-
-        <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/boostrap.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
     <script type="text/javascript" src="/js/responsee.js"></script>
     <script type="text/javascript" src="/owl-carousel/owl.carousel.js"></script>
     <script type="text/javascript" src="/js/template-scripts.js"></script> 

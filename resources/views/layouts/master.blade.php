@@ -9,12 +9,16 @@
     <link rel="stylesheet" href="/css/responsee.css">
     <link rel="stylesheet" href="/owl-carousel/owl.carousel.css">
     <link rel="stylesheet" href="/owl-carousel/owl.theme.css">
-    <!-- <link rel="stylesheet" href="css/lightcase.css"> -->
-    <!-- CUSTOM STYLE -->      
+    <link rel="stylesheet" href="/css/lightcase.css">  
+    <link rel="stylesheet" href="/css/boostrap.min.css">
     <link rel="stylesheet" href="/css/template-style.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,700,900&amp;subset=latin-ext" rel="stylesheet"> 
     <script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script>
     <script type="text/javascript" src="/js/jquery-ui.min.js"></script>   
+    <style type="text/css">
+      @import url('http://weloveiconfonts.com/api/?family=entypo');
+    </style>
+    <link rel="stylesheet" href="/css/app.css">
   </head>
 
   <body class="size-1280">
@@ -23,7 +27,9 @@
     @yield('body.header')
     @yield('body.content')
     @yield('body.footer')
-
+    
+    <script type="text/javascript" src="/js/boostrap.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
     <script type="text/javascript" src="/js/responsee.js"></script>
     <script type="text/javascript" src="/owl-carousel/owl.carousel.js"></script>
     <script type="text/javascript" src="/js/template-scripts.js"></script> 

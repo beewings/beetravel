@@ -1,3 +1,4 @@
+<!--
 <header role="banner" class="position-absolute">
   <nav class="background-transparent background-primary-dott full-width sticky">          
     <div class="top-nav"> 
@@ -29,5 +30,32 @@
         </ul> 
       </div>
     </div>
+  </nav>
+</header>
+-->
+<header class="nav-header1">
+  <nav style="background-color: #ffffff; position: fixed;border-bottom: 1px solid #cdcdcd;">
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link" href="{{ route('home.home') }}">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ route('tourhanoi.show') }}">Tour Ha Noi</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ route('tourvietnam.show') }}">Tour Viet Nam</a>
+      </li>
+      <li class="nav-item"><a href="">
+          <img class="logo-white" src="img/logo2.png" style="width: 100px; height: 50px;" alt=""></a></li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ route('aboutus') }}">Booking</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ route('contact') }}">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ route('news') }}">News</a>
+      </li>
+    </ul>
   </nav>
 </header>

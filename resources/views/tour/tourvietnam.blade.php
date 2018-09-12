@@ -1,85 +1,12 @@
 @extends ('layouts.master')
 @section ('head.title')
-  Home
+  Tour Viet Nam
 @stop
 @section ('body.header')
-  <header class="nav-header1">
-  <nav style="background-color: #ffffff; position: fixed;border-bottom: 1px solid #cdcdcd;">
-    <ul class="nav justify-content-center">
-      <li class="nav-item">
-        <a class="nav-link" href="{{ route('home.home') }}">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="{{ route('tourhanoi.show') }}">Tour Ha Noi</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="{{ route('tourvietnam.show') }}">Tour Viet Nam</a>
-      </li>
-      <li class="nav-item"><a href="">
-          <img class="logo-white" src="img/logo2.png" style="width: 100px; height: 50px;" alt=""></a></li>
-      <li class="nav-item">
-        <a class="nav-link" href="{{ route('aboutus') }}">Booking</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="{{ route('contact') }}">Contact</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="{{ route('news') }}">News</a>
-      </li>
-    </ul>
-  </nav>
-</header>
+  @include('partials.navbar')
 @stop
 @section ('body.content')
-  <main role="main">
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="img/hanoishow5.JPG" alt="First slide"  style="width: 100%;">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="img/hanoishow6.JPG" alt="Second slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="img/hanoishow7.JPG" alt="Third slide">
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-    <section class="section background-white" style="padding-top: 70px;">      
-      <div class="line text-center">
-        <h2 class="text-dark text-size-50 text-m-size-40">BeeTravel <b>Tour Ha Noi</b></h2>
-        <br>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
-            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip.</p>
-        <hr class="break background-primary break-small break-center margin-bottom-50">
-      </div> 
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <img src="img/hanoibg.jpg" class="img">
-            <span>xem chi tiet</span>
-          </div>
-          <div class="col">
-            <h1>Always <b>Nearby</b></h1>
-            <p class="margin-bottom">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
-                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip.
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
-                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip.
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
-                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip.</p>
-            <a class="text-primary" href="{{ route('tourhanoi.show') }}">Read more</a>
-          </div>
-        </div>
-      </div>
-    </section>
+  <main role="main">  
     <section class="section-top-padding background-white" style="padding-top: 50px; padding-bottom: 50px;">
       <div class="line text-center">
         <h2 class="text-dark text-size-50 text-m-size-40">BeeTravel <b>Tour Viet Nam </b></h2>
@@ -190,7 +117,22 @@
           <img class="margin-bottom" src="img/logo-2.png"/>
         </div>
       </div>
-    </section> 
+    </section>
+  <!--  <section class="section-small-padding background-dark text-center">      
+      <div class="line">
+        <h2 class="text-white text-size-50 text-m-size-40 margin-bottom-20">Please Download App to choose<b> Tour Guide</b></b></h2>
+        <div class="m-10 l-6 xl-4 center">
+          <div class="margin">
+            <a class="s-12 m-6 margin-s-bottom" href="/">
+              <img class="full-img right" src="img/google-play.svg" alt="">
+            </a>
+            <a class="s-12 m-6" href="/">
+              <img class="full-img" src="img/app-store.svg" alt="">
+            </a>
+          </div>
+        </div>                                                                                               
+      </div>       
+    </section>  -->   
   </main>
 @stop
 @section('body.footer')
